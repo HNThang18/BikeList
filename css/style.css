@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+header {
+  background-color: #d8dded;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #d8dded;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+nav img {
+  width: 10%;
+}
+
+img:not([alt="NakedBikeIcon"]) {
+  border: 2px solid #000000;
+  padding: 5px;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+main {
+  background-color: #eaedf5;
+  font-size: 18px;
+}
+
+li {
+  display: inline-block;
+  width: 150px;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #a6add3;
+}
+
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-container img:nth-child(even) {
+  border-radius: 20px;
+}
+
+.skip-link {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: #f3f5fa;
+  padding: 5px 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.skip-link:focus {
+  display: inline-block;
+}
